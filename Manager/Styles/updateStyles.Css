@@ -1,0 +1,83 @@
+* {
+    padding:0;
+    margin:0;
+}
+
+.Nav-Container {
+    display: flex;
+    background-color: rgb(47, 45, 45);
+}
+
+.Nav-List {
+    display: flex;
+}
+.Nav-List>a {
+    display: block;
+    padding: 1em;
+    color:white;
+    text-decoration: none;
+}
+.Nav-List>a:hover {
+    background-color: rgb(91, 88, 88);
+}
+.Burger-Button {
+    font-size:2em;
+    padding-inline: 10px;
+    padding-bottom: 3px;
+    background-color: rgb(47, 45, 45);
+    border:none;
+    color:white;
+    display: none;
+}
+.h1-class {
+    margin:0.2em;
+    text-align: center;
+    font-size: 2.6em;
+    color:rgb(96, 92, 92);
+}
+body {
+    background: linear-gradient(to right,blue,red);
+}
+.Main {
+    padding: 0.5em;
+}
+@media (max-width: 990px) {
+    .Burger-Button:hover {
+        background-color: rgb(91, 88, 88);
+        cursor: pointer;
+    }
+    .Burger-Button {
+        display: block;
+    }
+    .Nav-List {
+        display: none;
+    }
+    .Position-div:hover .Nav-List {
+        display: block;
+        position:absolute;
+        background-color: rgb(47, 45, 45);
+    }
+}
+
+.style-Text {
+    font-style: italic;
+    color: white;
+    font-size:1.7em;
+}
+.Pos-BasicText {
+    text-align: left;
+}
+.Pos-Text {
+    text-align: center;
+    font-style: italic;
+    color: rgb(96, 92, 92);
+    font-size:2.5em;
+}
+
+.a-ColorandDecorationsNone {
+    color: blueviolet;
+    text-decoration: none;
+}
+.Style-h1 {
+    font-style: italic;
+}

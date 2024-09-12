@@ -1,0 +1,56 @@
+* {
+    padding:0;
+    margin:0;
+}
+.Nav-Container {
+    display: flex;
+    background-color: rgb(45, 44, 44);
+}
+.List {
+    display: flex;
+}
+.List>a {
+    display: block;
+    color: white;
+    text-decoration:none;
+    padding:1em;
+    font-style:italic;
+}
+.List>a:hover {
+    background-color: rgb(85, 85, 85);
+}
+.List-Button {
+    font-size: 2em;
+    padding-inline: 10px;
+    padding-bottom: 3px;
+    background-color: rgb(45, 44, 44);
+    border: none;
+    color: white;
+    display: none;
+}
+@media (max-width: 990px) {
+    .List-Button {
+        display: block;
+    }
+    .List-Button:hover {
+        cursor: pointer;
+        background-color: rgb(85, 85, 85);
+    }
+    .List {
+        display: none;
+    }
+    .List-Div:hover .List {
+        display: block;
+        position: absolute;
+        background-color: rgb(45, 44, 44);
+    } 
+}   
+.text-Style {
+    font-style: italic;
+    color:rgb(87, 84, 84);
+    background: linear-gradient(to right,blue,red)
+}
+.none-tx-decorations {
+    text-decoration: none;
+    color:blueviolet;
+}
